@@ -7,18 +7,20 @@
 //
 
 import UIKit
+import JudyCircularProgressView
 
 class ViewController: UIViewController {
 
+    /// 圆环 View
+    @IBOutlet weak var circleView: CircularProgressLiveView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        circleView.lineLayer.strokeEnd = 0.2
+        
     }
-
+    
 }
 

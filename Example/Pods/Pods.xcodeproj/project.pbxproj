@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		1DAA698A2F8BACBE9CFF4C7B2D47E245 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3675CF6FB68868567D62B5A09CF0E2A2 /* Pods-JudyCircularProgressView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A68F2432FD5AED789CEA4806BBEA45C3 /* Pods-JudyCircularProgressView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		641D5C12E4DC1FA14172B538DDB0C9EF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F210580656A13127825626287DFFD398 /* ReplaceMe.swift */; };
 		73A034249E1DB7F9E5434047BAF93173 /* JudyCircularProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 639C5CC8CD18506261FA9D7E63FC6FB5 /* JudyCircularProgressView-dummy.m */; };
 		7A82FC4875C651931F8B678CFBF82002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		81FD2AF1C5E845308E3EAB8D75D5950A /* Pods-JudyCircularProgressView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 572E10B2C18431D2BEEB9D9B9BF72ABA /* Pods-JudyCircularProgressView_Tests-dummy.m */; };
+		8B985A3425E0DA4500C5634B /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B985A3325E0DA4500C5634B /* CircularProgressView.swift */; };
 		8FA892B2B97600AD06D24CB91BAFAE80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		91BA28F5E82A6FFF31E3100F89977BE0 /* Pods-JudyCircularProgressView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D20FFE792CDFB6422003A5A84028039C /* Pods-JudyCircularProgressView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A45011A1A1BBD34F58E3A97DE1255A8A /* JudyCircularProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B39A2C4843113C185E6B6396FEB26E1A /* JudyCircularProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,8 +42,8 @@
 		1F5088AC4C05E77F0B0EA71088AAB479 /* Pods-JudyCircularProgressView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JudyCircularProgressView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2819C5C3492DF6D717B756E35342E2B3 /* Pods-JudyCircularProgressView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JudyCircularProgressView_Tests-Info.plist"; sourceTree = "<group>"; };
 		34A76434D3AB3984FD7775301101F9C3 /* Pods-JudyCircularProgressView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JudyCircularProgressView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3548EEB406185DFA64ACA69EBDF80EE3 /* JudyCircularProgressView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JudyCircularProgressView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		42A852F5F5B905BB789571047F48A8E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3548EEB406185DFA64ACA69EBDF80EE3 /* JudyCircularProgressView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JudyCircularProgressView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		42A852F5F5B905BB789571047F48A8E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		44F4F8D4845D38FB1EA626AEF0E4FAE9 /* JudyCircularProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JudyCircularProgressView-prefix.pch"; sourceTree = "<group>"; };
 		4A57D042C097846346DE68F91A1EB496 /* Pods-JudyCircularProgressView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JudyCircularProgressView_Example-dummy.m"; sourceTree = "<group>"; };
 		572E10B2C18431D2BEEB9D9B9BF72ABA /* Pods-JudyCircularProgressView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JudyCircularProgressView_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -53,23 +53,23 @@
 		639C5CC8CD18506261FA9D7E63FC6FB5 /* JudyCircularProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JudyCircularProgressView-dummy.m"; sourceTree = "<group>"; };
 		6A96BDAA487A8CA9EEC8A94F62F62E62 /* Pods-JudyCircularProgressView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JudyCircularProgressView_Example.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		745CAD49322911B8F4CB687C778B913B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		745CAD49322911B8F4CB687C778B913B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7A5B17CD06A13A9353686AC193AC9D35 /* JudyCircularProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JudyCircularProgressView.modulemap; sourceTree = "<group>"; };
+		8B985A3325E0DA4500C5634B /* CircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircularProgressView.swift; path = JudyCircularProgressView/Classes/CircularProgressView.swift; sourceTree = "<group>"; };
 		96E83FBF09C81194BD4C434E9E9A0B06 /* JudyCircularProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JudyCircularProgressView.debug.xcconfig; sourceTree = "<group>"; };
 		9AEECAD0333B2451515D833F0DD2C3B6 /* Pods-JudyCircularProgressView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JudyCircularProgressView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A68F2432FD5AED789CEA4806BBEA45C3 /* Pods-JudyCircularProgressView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JudyCircularProgressView_Example-umbrella.h"; sourceTree = "<group>"; };
 		B39A2C4843113C185E6B6396FEB26E1A /* JudyCircularProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JudyCircularProgressView-umbrella.h"; sourceTree = "<group>"; };
 		C18CAEA85210FF01E1A5E7E50DBE8F3B /* Pods-JudyCircularProgressView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JudyCircularProgressView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C785F75844BAAC29307015E80CE0337D /* Pods_JudyCircularProgressView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JudyCircularProgressView_Tests.framework; path = "Pods-JudyCircularProgressView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C785F75844BAAC29307015E80CE0337D /* Pods_JudyCircularProgressView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JudyCircularProgressView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB509867B44F15176EA06770D67095A0 /* JudyCircularProgressView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JudyCircularProgressView.release.xcconfig; sourceTree = "<group>"; };
 		CC1D3FFA2809B915A2E6ACC4D75B761E /* Pods-JudyCircularProgressView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JudyCircularProgressView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D1DE2442236BFCDDF503F4B35DC308CF /* Pods-JudyCircularProgressView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JudyCircularProgressView_Tests.modulemap"; sourceTree = "<group>"; };
 		D20FFE792CDFB6422003A5A84028039C /* Pods-JudyCircularProgressView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JudyCircularProgressView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E6D3CB6E970A9A97CCA225B7B5FF0B3D /* Pods-JudyCircularProgressView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JudyCircularProgressView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F210580656A13127825626287DFFD398 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JudyCircularProgressView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		F39EF0B4D33A1E4E0D108BD24CE45AA0 /* JudyCircularProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JudyCircularProgressView.framework; path = JudyCircularProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8F9DBFD247631E30C647226CA3C23DA /* Pods_JudyCircularProgressView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JudyCircularProgressView_Example.framework; path = "Pods-JudyCircularProgressView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39EF0B4D33A1E4E0D108BD24CE45AA0 /* JudyCircularProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JudyCircularProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F9DBFD247631E30C647226CA3C23DA /* Pods_JudyCircularProgressView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JudyCircularProgressView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,7 @@
 		53DEE6C829E14BF08ED23F7267D1B0B5 /* JudyCircularProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				F210580656A13127825626287DFFD398 /* ReplaceMe.swift */,
+				8B985A3325E0DA4500C5634B /* CircularProgressView.swift */,
 				9F8AC30BC8E4B3FE3619D714834DD847 /* Pod */,
 				609858B1C7D3A191BA7499B75A7FA8CD /* Support Files */,
 			);
@@ -384,7 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73A034249E1DB7F9E5434047BAF93173 /* JudyCircularProgressView-dummy.m in Sources */,
-				641D5C12E4DC1FA14172B538DDB0C9EF /* ReplaceMe.swift in Sources */,
+				8B985A3425E0DA4500C5634B /* CircularProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,8 +685,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
