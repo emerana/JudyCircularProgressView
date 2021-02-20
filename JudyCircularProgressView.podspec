@@ -32,6 +32,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'JudyCircularProgressView/Classes/**/*'
   
+  s.swift_version = '5.0'
+
   # s.resource_bundles = {
   #   'JudyCircularProgressView' => ['JudyCircularProgressView/Assets/*.png']
   # }
