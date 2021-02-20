@@ -1,0 +1,16 @@
+PODS:
+  - JudyCircularProgressView (0.1.0)
+
+DEPENDENCIES:
+  - JudyCircularProgressView (from `../`)
+
+EXTERNAL SOURCES:
+  JudyCircularProgressView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JudyCircularProgressView: 3ff95465dfad82f40417904eb42f3259f15ef9a9
+
+PODFILE CHECKSUM: 02ae1e90a3615e88c48c27a55eaeba9375e2ceec
+
+COCOAPODS: 1.10.1

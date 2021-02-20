@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DAA698A2F8BACBE9CFF4C7B2D47E245 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3675CF6FB68868567D62B5A09CF0E2A2 /* Pods-JudyCircularProgressView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A68F2432FD5AED789CEA4806BBEA45C3 /* Pods-JudyCircularProgressView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		641D5C12E4DC1FA14172B538DDB0C9EF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F210580656A13127825626287DFFD398 /* ReplaceMe.swift */; };
+		73A034249E1DB7F9E5434047BAF93173 /* JudyCircularProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 639C5CC8CD18506261FA9D7E63FC6FB5 /* JudyCircularProgressView-dummy.m */; };
+		7A82FC4875C651931F8B678CFBF82002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		81FD2AF1C5E845308E3EAB8D75D5950A /* Pods-JudyCircularProgressView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 572E10B2C18431D2BEEB9D9B9BF72ABA /* Pods-JudyCircularProgressView_Tests-dummy.m */; };
+		8FA892B2B97600AD06D24CB91BAFAE80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		91BA28F5E82A6FFF31E3100F89977BE0 /* Pods-JudyCircularProgressView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D20FFE792CDFB6422003A5A84028039C /* Pods-JudyCircularProgressView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45011A1A1BBD34F58E3A97DE1255A8A /* JudyCircularProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B39A2C4843113C185E6B6396FEB26E1A /* JudyCircularProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9ECBB615E95A7BEF2500C5A86AA5860 /* Pods-JudyCircularProgressView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A57D042C097846346DE68F91A1EB496 /* Pods-JudyCircularProgressView_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52C6A3D590AF4E0CD08EF0B95B5E8F44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7C4829DF496F5AFC55441056D463032;
+			remoteInfo = "Pods-JudyCircularProgressView_Example";
+		};
+		63EA3E80DE99B716DCB37ED338DEC494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDABC60F1DE7D36C698107371D9015B;
+			remoteInfo = JudyCircularProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DF9EA9C7192BE4AA13BCBFC7B053EA5 /* JudyCircularProgressView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JudyCircularProgressView-Info.plist"; sourceTree = "<group>"; };
+		131C01F4ECE3710B18D2C5831BAC4173 /* Pods-JudyCircularProgressView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JudyCircularProgressView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1F5088AC4C05E77F0B0EA71088AAB479 /* Pods-JudyCircularProgressView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JudyCircularProgressView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2819C5C3492DF6D717B756E35342E2B3 /* Pods-JudyCircularProgressView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JudyCircularProgressView_Tests-Info.plist"; sourceTree = "<group>"; };
+		34A76434D3AB3984FD7775301101F9C3 /* Pods-JudyCircularProgressView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JudyCircularProgressView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3548EEB406185DFA64ACA69EBDF80EE3 /* JudyCircularProgressView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JudyCircularProgressView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		42A852F5F5B905BB789571047F48A8E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		44F4F8D4845D38FB1EA626AEF0E4FAE9 /* JudyCircularProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JudyCircularProgressView-prefix.pch"; sourceTree = "<group>"; };
+		4A57D042C097846346DE68F91A1EB496 /* Pods-JudyCircularProgressView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JudyCircularProgressView_Example-dummy.m"; sourceTree = "<group>"; };
+		572E10B2C18431D2BEEB9D9B9BF72ABA /* Pods-JudyCircularProgressView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JudyCircularProgressView_Tests-dummy.m"; sourceTree = "<group>"; };
+		5E2ED36D03CAC827FE0B9BEADC74C729 /* Pods-JudyCircularProgressView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JudyCircularProgressView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F7835058AD3029CE343A458959D213E /* Pods-JudyCircularProgressView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JudyCircularProgressView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5FAD246E34634E96F41E49785C52CC3E /* Pods-JudyCircularProgressView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JudyCircularProgressView_Example-Info.plist"; sourceTree = "<group>"; };
+		639C5CC8CD18506261FA9D7E63FC6FB5 /* JudyCircularProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JudyCircularProgressView-dummy.m"; sourceTree = "<group>"; };
+		6A96BDAA487A8CA9EEC8A94F62F62E62 /* Pods-JudyCircularProgressView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JudyCircularProgressView_Example.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		745CAD49322911B8F4CB687C778B913B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7A5B17CD06A13A9353686AC193AC9D35 /* JudyCircularProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JudyCircularProgressView.modulemap; sourceTree = "<group>"; };
+		96E83FBF09C81194BD4C434E9E9A0B06 /* JudyCircularProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JudyCircularProgressView.debug.xcconfig; sourceTree = "<group>"; };
+		9AEECAD0333B2451515D833F0DD2C3B6 /* Pods-JudyCircularProgressView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JudyCircularProgressView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A68F2432FD5AED789CEA4806BBEA45C3 /* Pods-JudyCircularProgressView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JudyCircularProgressView_Example-umbrella.h"; sourceTree = "<group>"; };
+		B39A2C4843113C185E6B6396FEB26E1A /* JudyCircularProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JudyCircularProgressView-umbrella.h"; sourceTree = "<group>"; };
+		C18CAEA85210FF01E1A5E7E50DBE8F3B /* Pods-JudyCircularProgressView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JudyCircularProgressView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C785F75844BAAC29307015E80CE0337D /* Pods_JudyCircularProgressView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JudyCircularProgressView_Tests.framework; path = "Pods-JudyCircularProgressView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB509867B44F15176EA06770D67095A0 /* JudyCircularProgressView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JudyCircularProgressView.release.xcconfig; sourceTree = "<group>"; };
+		CC1D3FFA2809B915A2E6ACC4D75B761E /* Pods-JudyCircularProgressView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JudyCircularProgressView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D1DE2442236BFCDDF503F4B35DC308CF /* Pods-JudyCircularProgressView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JudyCircularProgressView_Tests.modulemap"; sourceTree = "<group>"; };
+		D20FFE792CDFB6422003A5A84028039C /* Pods-JudyCircularProgressView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JudyCircularProgressView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E6D3CB6E970A9A97CCA225B7B5FF0B3D /* Pods-JudyCircularProgressView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JudyCircularProgressView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F210580656A13127825626287DFFD398 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JudyCircularProgressView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F39EF0B4D33A1E4E0D108BD24CE45AA0 /* JudyCircularProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JudyCircularProgressView.framework; path = JudyCircularProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F9DBFD247631E30C647226CA3C23DA /* Pods_JudyCircularProgressView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JudyCircularProgressView_Example.framework; path = "Pods-JudyCircularProgressView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05EDD5DFEAC7F50F3D5EF47778997EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A82FC4875C651931F8B678CFBF82002 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893B82CE37084FA96B122EE2748AFC19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DAA698A2F8BACBE9CFF4C7B2D47E245 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6F471FED150054745B54D7CEC20CF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA892B2B97600AD06D24CB91BAFAE80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		260B788461A678240E219FCFC8D9E4D8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				658B9DF53769AE91D7F242799B0F32C0 /* Pods-JudyCircularProgressView_Example */,
+				8A3D9BF65E25E8B9B6BD035412E9FFFF /* Pods-JudyCircularProgressView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4D19E72B7D72FD01B7AE89C279132176 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53DEE6C829E14BF08ED23F7267D1B0B5 /* JudyCircularProgressView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		53DEE6C829E14BF08ED23F7267D1B0B5 /* JudyCircularProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				F210580656A13127825626287DFFD398 /* ReplaceMe.swift */,
+				9F8AC30BC8E4B3FE3619D714834DD847 /* Pod */,
+				609858B1C7D3A191BA7499B75A7FA8CD /* Support Files */,
+			);
+			name = JudyCircularProgressView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		609858B1C7D3A191BA7499B75A7FA8CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A5B17CD06A13A9353686AC193AC9D35 /* JudyCircularProgressView.modulemap */,
+				639C5CC8CD18506261FA9D7E63FC6FB5 /* JudyCircularProgressView-dummy.m */,
+				0DF9EA9C7192BE4AA13BCBFC7B053EA5 /* JudyCircularProgressView-Info.plist */,
+				44F4F8D4845D38FB1EA626AEF0E4FAE9 /* JudyCircularProgressView-prefix.pch */,
+				B39A2C4843113C185E6B6396FEB26E1A /* JudyCircularProgressView-umbrella.h */,
+				96E83FBF09C81194BD4C434E9E9A0B06 /* JudyCircularProgressView.debug.xcconfig */,
+				CB509867B44F15176EA06770D67095A0 /* JudyCircularProgressView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JudyCircularProgressView";
+			sourceTree = "<group>";
+		};
+		658B9DF53769AE91D7F242799B0F32C0 /* Pods-JudyCircularProgressView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6A96BDAA487A8CA9EEC8A94F62F62E62 /* Pods-JudyCircularProgressView_Example.modulemap */,
+				5E2ED36D03CAC827FE0B9BEADC74C729 /* Pods-JudyCircularProgressView_Example-acknowledgements.markdown */,
+				C18CAEA85210FF01E1A5E7E50DBE8F3B /* Pods-JudyCircularProgressView_Example-acknowledgements.plist */,
+				4A57D042C097846346DE68F91A1EB496 /* Pods-JudyCircularProgressView_Example-dummy.m */,
+				131C01F4ECE3710B18D2C5831BAC4173 /* Pods-JudyCircularProgressView_Example-frameworks.sh */,
+				5FAD246E34634E96F41E49785C52CC3E /* Pods-JudyCircularProgressView_Example-Info.plist */,
+				A68F2432FD5AED789CEA4806BBEA45C3 /* Pods-JudyCircularProgressView_Example-umbrella.h */,
+				CC1D3FFA2809B915A2E6ACC4D75B761E /* Pods-JudyCircularProgressView_Example.debug.xcconfig */,
+				1F5088AC4C05E77F0B0EA71088AAB479 /* Pods-JudyCircularProgressView_Example.release.xcconfig */,
+			);
+			name = "Pods-JudyCircularProgressView_Example";
+			path = "Target Support Files/Pods-JudyCircularProgressView_Example";
+			sourceTree = "<group>";
+		};
+		8A3D9BF65E25E8B9B6BD035412E9FFFF /* Pods-JudyCircularProgressView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D1DE2442236BFCDDF503F4B35DC308CF /* Pods-JudyCircularProgressView_Tests.modulemap */,
+				E6D3CB6E970A9A97CCA225B7B5FF0B3D /* Pods-JudyCircularProgressView_Tests-acknowledgements.markdown */,
+				5F7835058AD3029CE343A458959D213E /* Pods-JudyCircularProgressView_Tests-acknowledgements.plist */,
+				572E10B2C18431D2BEEB9D9B9BF72ABA /* Pods-JudyCircularProgressView_Tests-dummy.m */,
+				2819C5C3492DF6D717B756E35342E2B3 /* Pods-JudyCircularProgressView_Tests-Info.plist */,
+				D20FFE792CDFB6422003A5A84028039C /* Pods-JudyCircularProgressView_Tests-umbrella.h */,
+				34A76434D3AB3984FD7775301101F9C3 /* Pods-JudyCircularProgressView_Tests.debug.xcconfig */,
+				9AEECAD0333B2451515D833F0DD2C3B6 /* Pods-JudyCircularProgressView_Tests.release.xcconfig */,
+			);
+			name = "Pods-JudyCircularProgressView_Tests";
+			path = "Target Support Files/Pods-JudyCircularProgressView_Tests";
+			sourceTree = "<group>";
+		};
+		9F8AC30BC8E4B3FE3619D714834DD847 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3548EEB406185DFA64ACA69EBDF80EE3 /* JudyCircularProgressView.podspec */,
+				42A852F5F5B905BB789571047F48A8E2 /* LICENSE */,
+				745CAD49322911B8F4CB687C778B913B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CECDF441D9C629C3254DB2881A369E74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39EF0B4D33A1E4E0D108BD24CE45AA0 /* JudyCircularProgressView.framework */,
+				F8F9DBFD247631E30C647226CA3C23DA /* Pods_JudyCircularProgressView_Example.framework */,
+				C785F75844BAAC29307015E80CE0337D /* Pods_JudyCircularProgressView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4D19E72B7D72FD01B7AE89C279132176 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CECDF441D9C629C3254DB2881A369E74 /* Products */,
+				260B788461A678240E219FCFC8D9E4D8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08FF767211272DF613E39367BAB1B68A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3675CF6FB68868567D62B5A09CF0E2A2 /* Pods-JudyCircularProgressView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A6227BFABDE32C7F92FFB19019BB92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91BA28F5E82A6FFF31E3100F89977BE0 /* Pods-JudyCircularProgressView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB783B51B8A33373A135AA2FFEC3B01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45011A1A1BBD34F58E3A97DE1255A8A /* JudyCircularProgressView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D4F3CA14276C054D12C5C9CF2AAB7DA /* Pods-JudyCircularProgressView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4974697A2597F42A07763AEB280A4651 /* Build configuration list for PBXNativeTarget "Pods-JudyCircularProgressView_Tests" */;
+			buildPhases = (
+				11A6227BFABDE32C7F92FFB19019BB92 /* Headers */,
+				21643D8AA7E0C7335B35940C30BA5F30 /* Sources */,
+				893B82CE37084FA96B122EE2748AFC19 /* Frameworks */,
+				6CFFD1473D453BBA6800B6046406FF42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E718568E38E02FBF1F913A4A9385810C /* PBXTargetDependency */,
+			);
+			name = "Pods-JudyCircularProgressView_Tests";
+			productName = "Pods-JudyCircularProgressView_Tests";
+			productReference = C785F75844BAAC29307015E80CE0337D /* Pods_JudyCircularProgressView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7C4829DF496F5AFC55441056D463032 /* Pods-JudyCircularProgressView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51268F494D4F9E465D2E384A1C524173 /* Build configuration list for PBXNativeTarget "Pods-JudyCircularProgressView_Example" */;
+			buildPhases = (
+				08FF767211272DF613E39367BAB1B68A /* Headers */,
+				28DAB53635B5963E491031E98BD6ABC0 /* Sources */,
+				BB6F471FED150054745B54D7CEC20CF2 /* Frameworks */,
+				8C8571DD5F1A0449DAA3188F005FDC9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FB2A4643C7B01C793ADCB018ABFDEFE /* PBXTargetDependency */,
+			);
+			name = "Pods-JudyCircularProgressView_Example";
+			productName = "Pods-JudyCircularProgressView_Example";
+			productReference = F8F9DBFD247631E30C647226CA3C23DA /* Pods_JudyCircularProgressView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFDABC60F1DE7D36C698107371D9015B /* JudyCircularProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730764881B9A87A7E7190A4B74216CF0 /* Build configuration list for PBXNativeTarget "JudyCircularProgressView" */;
+			buildPhases = (
+				1AB783B51B8A33373A135AA2FFEC3B01 /* Headers */,
+				D5C0FBB0D0387CF367B7A9A0EEF8DA70 /* Sources */,
+				05EDD5DFEAC7F50F3D5EF47778997EEF /* Frameworks */,
+				D0692A057F273C9A17832063C4BD5CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JudyCircularProgressView;
+			productName = JudyCircularProgressView;
+			productReference = F39EF0B4D33A1E4E0D108BD24CE45AA0 /* JudyCircularProgressView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CECDF441D9C629C3254DB2881A369E74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDABC60F1DE7D36C698107371D9015B /* JudyCircularProgressView */,
+				A7C4829DF496F5AFC55441056D463032 /* Pods-JudyCircularProgressView_Example */,
+				8D4F3CA14276C054D12C5C9CF2AAB7DA /* Pods-JudyCircularProgressView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CFFD1473D453BBA6800B6046406FF42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C8571DD5F1A0449DAA3188F005FDC9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0692A057F273C9A17832063C4BD5CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21643D8AA7E0C7335B35940C30BA5F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FD2AF1C5E845308E3EAB8D75D5950A /* Pods-JudyCircularProgressView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DAB53635B5963E491031E98BD6ABC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9ECBB615E95A7BEF2500C5A86AA5860 /* Pods-JudyCircularProgressView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C0FBB0D0387CF367B7A9A0EEF8DA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A034249E1DB7F9E5434047BAF93173 /* JudyCircularProgressView-dummy.m in Sources */,
+				641D5C12E4DC1FA14172B538DDB0C9EF /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FB2A4643C7B01C793ADCB018ABFDEFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JudyCircularProgressView;
+			target = EFDABC60F1DE7D36C698107371D9015B /* JudyCircularProgressView */;
+			targetProxy = 63EA3E80DE99B716DCB37ED338DEC494 /* PBXContainerItemProxy */;
+		};
+		E718568E38E02FBF1F913A4A9385810C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JudyCircularProgressView_Example";
+			target = A7C4829DF496F5AFC55441056D463032 /* Pods-JudyCircularProgressView_Example */;
+			targetProxy = 52C6A3D590AF4E0CD08EF0B95B5E8F44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		30254DC8D71134742AF366D0A5E52988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A76434D3AB3984FD7775301101F9C3 /* Pods-JudyCircularProgressView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JudyCircularProgressView_Tests/Pods-JudyCircularProgressView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JudyCircularProgressView_Tests/Pods-JudyCircularProgressView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78D9F9868A4F4562304BCD27D1DE1F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AEECAD0333B2451515D833F0DD2C3B6 /* Pods-JudyCircularProgressView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JudyCircularProgressView_Tests/Pods-JudyCircularProgressView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JudyCircularProgressView_Tests/Pods-JudyCircularProgressView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A9E369C21AF857DB5C1E2D3C6043BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96E83FBF09C81194BD4C434E9E9A0B06 /* JudyCircularProgressView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JudyCircularProgressView/JudyCircularProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JudyCircularProgressView/JudyCircularProgressView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JudyCircularProgressView/JudyCircularProgressView.modulemap";
+				PRODUCT_MODULE_NAME = JudyCircularProgressView;
+				PRODUCT_NAME = JudyCircularProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9906729A89C4BE097CFBABE67715345D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1D3FFA2809B915A2E6ACC4D75B761E /* Pods-JudyCircularProgressView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JudyCircularProgressView_Example/Pods-JudyCircularProgressView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JudyCircularProgressView_Example/Pods-JudyCircularProgressView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B47D57750F41F6516A0844BF7DC3B695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB509867B44F15176EA06770D67095A0 /* JudyCircularProgressView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JudyCircularProgressView/JudyCircularProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JudyCircularProgressView/JudyCircularProgressView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JudyCircularProgressView/JudyCircularProgressView.modulemap";
+				PRODUCT_MODULE_NAME = JudyCircularProgressView;
+				PRODUCT_NAME = JudyCircularProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DEF7A5CFC20AC810B3ADE16C94596942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F5088AC4C05E77F0B0EA71088AAB479 /* Pods-JudyCircularProgressView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JudyCircularProgressView_Example/Pods-JudyCircularProgressView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JudyCircularProgressView_Example/Pods-JudyCircularProgressView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4974697A2597F42A07763AEB280A4651 /* Build configuration list for PBXNativeTarget "Pods-JudyCircularProgressView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30254DC8D71134742AF366D0A5E52988 /* Debug */,
+				78D9F9868A4F4562304BCD27D1DE1F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51268F494D4F9E465D2E384A1C524173 /* Build configuration list for PBXNativeTarget "Pods-JudyCircularProgressView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9906729A89C4BE097CFBABE67715345D /* Debug */,
+				DEF7A5CFC20AC810B3ADE16C94596942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730764881B9A87A7E7190A4B74216CF0 /* Build configuration list for PBXNativeTarget "JudyCircularProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9E369C21AF857DB5C1E2D3C6043BDE /* Debug */,
+				B47D57750F41F6516A0844BF7DC3B695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
