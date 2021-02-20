@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JudyCircularProgressView_Example' do
+  pod 'JudyCircularProgressView', :path => '../'
+
+  target 'JudyCircularProgressView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
